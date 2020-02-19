@@ -12,4 +12,4 @@ git pull
 
 git push
 
-[back to readme](javascript:window.history.back())
+[back to readme](javascript:history.back();)
