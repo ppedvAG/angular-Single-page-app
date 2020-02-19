@@ -4,6 +4,10 @@ EIN KURS VON PPEDV
 
 20200220-NG-VC
 
+[root notes](notes.md)
+
+[Andreas notes](../blob/master/andreas/a-notes.md)
+
 ## MODULE 000 | WARM UP
 
 ### M000 SLIDES
@@ -23,8 +27,6 @@ git_n_github > github > getting started (zu erstellen)
 [vscode code](https://github.com/Microsoft/vscode)
 
 [git homepage](https://git-scm.com)
-
-[notes](notes.md)
 
 ---
 

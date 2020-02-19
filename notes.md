@@ -11,13 +11,3 @@ git commit -m "your commit message"
 git pull
 
 git push
-
-[back to readme](javascript:history.back();)
-
-<a href="javascript:history.back();">BACK</a>
-
-<button onclick="document.write('Hallo');">SAY HALLO</button>
-
-<h2>heading</h2>
-
-<button>button</button>
