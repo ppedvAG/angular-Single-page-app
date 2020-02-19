@@ -11,3 +11,5 @@ git commit -m "your commit message"
 git pull
 
 git push
+
+[back to readme](javascript:window.history.back())
