@@ -9,6 +9,11 @@ ablauf*.txt
 *ABLAUF.txt
 ABLAUF*.txt
 Ablauf*.txt
+*ablauf.md
+ablauf*.md
+*ABLAUF.md
+ABLAUF*.md
+Ablauf*.md
 
 # User-specific files
 *.rsuser
