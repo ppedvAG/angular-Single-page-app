@@ -6,7 +6,7 @@ EIN KURS VON PPEDV
 
 [root notes](notes.md)
 
-[Andreas notes](../blob/master/andreas/a-notes.md)
+[Andreas notes](../master/andreas/a-notes.md)
 
 ## MODULE 000 | WARM UP
 
