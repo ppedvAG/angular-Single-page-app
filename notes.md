@@ -13,3 +13,5 @@ git pull
 git push
 
 [back to readme](javascript:history.back();)
+
+<a href="javascript:history.back();">BACK</a>
