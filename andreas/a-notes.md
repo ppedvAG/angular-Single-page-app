@@ -22,7 +22,7 @@ greeter, vscode, git, github
 
 | shortcut | effect |
 | ------- | ------ |
-| ´alt´ + shift + f | autoformat |
+| `alt` + shift + f | autoformat |
 | strg + # | kommentieren (Einzeiler)|
 | alt + shift + a | kommentieren (Mehrzeiler)|
 | strg + leertaste | IntelliSense forsieren|
