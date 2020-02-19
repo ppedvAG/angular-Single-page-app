@@ -2,12 +2,20 @@
 
 ## GIT COMMANDS
 
-git clone
+| command           | effect    |
+| ----------------- | --------  |
+| git clone         |           |
+| git add .         | |
+| git commit -m "message" |     |
+| git pull      |   |
+| git push  |   |
 
-git add .
+## VSCODE SHORTCUTS
 
-git commit -m "your commit message"
 
-git pull
-
-git push
+alt + shift + f = autoformat
+strg + # = kommentieren (Einzeiler)
+alt + shift + a = kommentieren (Mehrzeiler)
+strg + leertaste = IntelliSense forsieren
+alt + umschalt + pfeil = Zeile kopieren nach oben / unten
+alt + umschalt + Ziehen des Kursors mit der linken Maustaste = Editieren über mehrere Zeilen
