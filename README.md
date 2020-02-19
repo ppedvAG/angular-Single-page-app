@@ -24,7 +24,7 @@ git_n_github > github > getting started (zu erstellen)
 
 [git homepage](https://git-scm.com)
 
-[markdown](https://markdown.de/)
+[notes](notes.md)
 
 ---
 
