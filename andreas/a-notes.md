@@ -22,12 +22,12 @@ greeter, vscode, git, github
 
 | shortcut | effect |
 | ------- | ------ |
-| `alt` + shift + f | autoformat |
-| strg + # | kommentieren (Einzeiler)|
-| alt + shift + a | kommentieren (Mehrzeiler)|
-| strg + leertaste | IntelliSense forsieren|
-| alt + shift + pfeil | Zeile kopieren nach oben / unten|
-| alt + shift + Ziehen des Kursors | Editieren über mehrere Zeilen|
+| `alt` `shift` `f` | autoformat |
+| `strg` `#` | kommentieren (Einzeiler)|
+| `alt` `shift` `a` | kommentieren (Mehrzeiler)|
+| `strg` `leertaste` | IntelliSense forsieren|
+| `alt` `shift` _pfeil_ | Zeile kopieren nach oben / unten|
+| `alt` `shift` Ziehen des Kursors | Editieren über mehrere Zeilen|
 
 [vscode homepage](https://code.visualstudio.com/)
 
