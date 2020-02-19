@@ -22,7 +22,7 @@ greeter, vscode, git, github
 
 | shortcut | effect |
 | ------- | ------ |
-| alt + shift + f | autoformat |
+| ´alt´ + shift + f | autoformat |
 | strg + # | kommentieren (Einzeiler)|
 | alt + shift + a | kommentieren (Mehrzeiler)|
 | strg + leertaste | IntelliSense forsieren|
@@ -75,9 +75,9 @@ ng project structure, ecosystem, command line
 | command | effect |
 | ------- | ------ |
 | ng | |
-| ng new _projectname_ | |
+| ng new _project_ | |
 | ng serve -o | |
-| ng _commandname_ --help | |
+| ng _command_ --help | |
 | ng --version | |
 | ng generate _schematic_ | |
 | ng g _schematic_ | |

@@ -4,6 +4,4 @@ EIN KURS VON PPEDV
 
 [Andreas' Notizen](../andreas/a-notes.md)
 
-Die Folien finden in Ihrem Premium-Profil auf ppedv.de
-
-
+Die Folien finden Sie in Ihrem Premium-Profil auf ppedv.de
