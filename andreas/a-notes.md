@@ -27,7 +27,7 @@ greeter, vscode, git, github
 | `alt` `shift` `a` | kommentieren (Mehrzeiler)|
 | `strg` `leertaste` | IntelliSense forsieren|
 | `alt` `shift` _pfeil_ | Zeile kopieren nach oben / unten|
-| `alt` `shift` Ziehen des Kursors | Editieren über mehrere Zeilen|
+| `alt` `shift` _Kursorziehen_ | Editieren über mehrere Zeilen|
 
 [vscode homepage](https://code.visualstudio.com/)
 
