@@ -50,9 +50,9 @@ ng generate module todos
 # css
 - :host => host element
 - [style] => objekt mit properties
-- [class] => string
-- ngstyle => 
-- ngclass =>
+- [class] => object mit properties => [class.is-negative]="isNegative()" 
+- ngStyle => multi-style in einem objekt
+- ngClass => string oder leerer string => klassenname / object mit key value boolean
 - classname
 
 ## MODULE 000 | WARM UP

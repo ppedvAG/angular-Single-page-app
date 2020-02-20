@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './dice.component.html',
   styleUrls: ['./dice.component.css']
 })
+
 export class DiceComponent implements OnInit {
   zahl: number;
 
@@ -14,6 +15,10 @@ export class DiceComponent implements OnInit {
 
   getFontSize() {
     return 8*this.zahl;
+  }
+
+  isBingo() {
+    return this.zahl === 6;
   }
 
   ngOnInit(): void {
