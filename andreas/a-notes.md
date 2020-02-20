@@ -4,7 +4,8 @@
 - Server side rendering?
 - Unit-Testing / Component-Testing?
 - Sub-Routes per module?
-- Certificate of successful participation?=
+- Certificate of successful participation?
+- build production?
 
 # Notizen
 
