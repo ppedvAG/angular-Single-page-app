@@ -9,7 +9,7 @@ export class DiashowComponent implements OnInit, OnDestroy {
 
   @Input() images: string[] = [];
   private imageInterval: number; // alternative NodeJS.Timeout for server side rendering
-  private imageIndex:number = 0;
+  imageIndex:number = 0;
 
   constructor() { }
 
