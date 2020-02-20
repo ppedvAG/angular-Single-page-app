@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from "@angular/core";
 
 @Component({
   selector: 'app-dice',
@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 
 export class DiceComponent implements OnInit {
   zahl: number;
+  @Input() forceBingo: boolean = false;
   constructor() {
     this.zahl = Math.ceil(Math.random()*6);
   }
@@ -17,7 +18,7 @@ export class DiceComponent implements OnInit {
   }
 
   isBingo() {
-    return this.zahl === 6;
+    return this.forceBingo || this.zahl === 6;
   }
 
   ngOnInit(): void {

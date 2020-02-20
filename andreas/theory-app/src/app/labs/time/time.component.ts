@@ -1,4 +1,5 @@
 import { Component, OnDestroy, OnInit } from "@angular/core";
+import { TimeInterval } from "rxjs";
 
 @Component({
   selector: 'app-time',
@@ -9,11 +10,12 @@ export class TimeComponent implements OnInit, OnDestroy {
 
   date: Date;
   timeString: string;
-  private timerInterval: number;
+  private readonly timerInterval: number;
 
   constructor() {
     this.showTime();
-    this.timerInterval = window.setInterval(() => this.showTime(), 1000);
+    // server side rendering does not support "window"
+    this.timerInterval = setInterval(() => this.showTime(), 1000);
   }
 
   showTime(): void {
