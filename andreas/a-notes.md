@@ -14,7 +14,7 @@ npm cache verify
 `angular.json` contains settings like component `prefix` (default=app)
 
 - component => immer template
-- directive => `*ng-for` etc
+- directive => `*ngFor` etc
 - input => top down
 - output => bottom up
 
@@ -33,9 +33,27 @@ ng generate module todos
 
 ```
 
+# modules
+- anwendung aufteilen (lazy loading möglich)
+- features modules
+    - geteilte module (z.B. via github)
+- root modules
+    - lokale module
+    - um die app zu bootstrappen
 
+- exports müssen nur dann erfolgen, wenn die komponente außerhalb des Modules verwendet werden soll
 
+# direktiven
+- Attribut: funktion in der view ohne eigenes Template (`ng-model`)
+- Strukturell: `*ngFor`
 
+# css
+- :host => host element
+- [style] => objekt mit properties
+- [class] => string
+- ngstyle => 
+- ngclass =>
+- classname
 
 ## MODULE 000 | WARM UP
 
