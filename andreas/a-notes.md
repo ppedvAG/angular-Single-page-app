@@ -1,6 +1,15 @@
 # NOTIZEN VON ANDREAS
 
-testcommit
+# Fragen
+- Server side rendering?
+
+# Notizen
+
+```
+# delete old dependencies
+npm cache verify
+```
+
 
 ## MODULE 000 | WARM UP
 
