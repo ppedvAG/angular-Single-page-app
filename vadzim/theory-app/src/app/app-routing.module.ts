@@ -3,7 +3,6 @@ import { Routes, RouterModule } from '@angular/router';
 import { OverviewComponent } from './labs/overview/overview.component';
 import { TodosoverviewComponent } from './todos/todosoverview/todosoverview.component';
 
-
 const routes: Routes = [
   { path: 'labs', component: OverviewComponent},
   { path: 'todos', component: TodosoverviewComponent},
