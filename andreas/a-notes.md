@@ -2,7 +2,9 @@
 
 # Questions
 - Server side rendering?
-- Unit-Testing / Component-Testing
+- Unit-Testing / Component-Testing?
+- Sub-Routes per module?
+- Certificate of successful participation?=
 
 # Notizen
 
