@@ -1,1 +1,5 @@
-<p>{{zahl}}</p>
+<!-- <p [zahl]="6" [style.font-size.px]="getFontSize()">Gewürfelt! Es ist eine {{zahl}}</p> -->
+<!-- https://www.telerik.com/blogs/understanding-angular-property-binding-and-interpolation -->
+<!-- Namen von Props dürfen nur rechts in HTML-Attributen stehen ??? -->
+
+<p [style.font-size.px]="getFontSize()" [class.bingo]="zahl === 6">Gewürfelt! Es ist eine {{zahl}}</p>
