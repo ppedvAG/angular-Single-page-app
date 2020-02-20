@@ -1,7 +1,8 @@
 # NOTIZEN VON ANDREAS
 
-# Fragen
+# Questions
 - Server side rendering?
+- Unit-Testing / Component-Testing
 
 # Notizen
 
@@ -9,6 +10,31 @@
 # delete old dependencies
 npm cache verify
 ```
+
+`angular.json` contains settings like component `prefix` (default=app)
+
+- component => immer template
+- directive => `*ng-for` etc
+- input => top down
+- output => bottom up
+
+# structure
+
+
+# cli tool
+```
+ng generate module labs
+
+ng generate component labs/time --dry-run
+ng generate component labs/time
+
+
+ng generate module todos
+
+```
+
+
+
 
 
 ## MODULE 000 | WARM UP
