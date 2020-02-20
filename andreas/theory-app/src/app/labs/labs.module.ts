@@ -11,7 +11,8 @@ import { OverviewComponent } from './overview/overview.component';
     CommonModule
   ],
   exports: [
-    OverviewComponent
+    OverviewComponent,
+    TimeComponent
   ]
 })
 export class LabsModule { }
