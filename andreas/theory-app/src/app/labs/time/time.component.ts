@@ -1,18 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from "@angular/core";
 
 @Component({
   selector: 'app-time',
   templateUrl: './time.component.html',
   styleUrls: ['./time.component.css']
 })
-export class TimeComponent implements OnInit {
+export class TimeComponent implements OnInit, OnDestroy {
 
   date: Date;
   timeString: string;
+  private timerInterval: number;
 
   constructor() {
     this.showTime();
-    window.setInterval(() => this.showTime(), 1000);
+    this.timerInterval = window.setInterval(() => this.showTime(), 1000);
   }
 
   showTime(): void {
@@ -22,6 +23,13 @@ export class TimeComponent implements OnInit {
 
   ngOnInit(): void {
 
+  }
+
+  ngOnDestroy(): void {
+    if(this.timerInterval) {
+      console.log('timerInterval is present and will be cleared')
+      window.clearInterval(this.timerInterval);
+    }
   }
 
 }
