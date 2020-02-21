@@ -26,6 +26,16 @@
 <h2>(events)</h2>
 <app-mouse-over></app-mouse-over>
 
+<hr>
+
+<h2>@Output, EventEmitter</h2>
+<app-timer [seconds]="6" (startEvent)="handleStart()" (tickEvent)="handleTick($event)" (endEvent)="handleEnd($event)"></app-timer>
+<p>{{ startMessage }}</p>
+<p>{{ timerMessage }}</p>
+<p>{{ endMessage }}</p>
+<p>From Child: {{ endMessageFromChild }}</p>
+<hr>
+
 
 
 

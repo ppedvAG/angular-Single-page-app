@@ -5,6 +5,7 @@ import { OverviewComponent } from './overview/overview.component';
 import { DiceComponent } from './dice/dice.component';
 import { DiashowComponent } from './diashow/diashow.component';
 import { MouseOverComponent } from './mouse-over/mouse-over.component';
+import { TimerComponent } from './timer/timer.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { MouseOverComponent } from './mouse-over/mouse-over.component';
     OverviewComponent, 
     DiceComponent, 
     DiashowComponent,
-    MouseOverComponent
+    MouseOverComponent,
+    TimerComponent
   ],
   imports: [
     CommonModule
