@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit } from "@angular/core";
+import { Component, OnInit, OnDestroy } from '@angular/core';
 
 @Component({
   selector: 'app-todosoverview',
@@ -13,6 +13,7 @@ export class TodosoverviewComponent implements OnInit, OnDestroy {
   }
 
   ngOnDestroy(): void {
-    console.log('TodosoverviewComponent destroy');
+    console.log('Todosoverview gone');
   }
+
 }
