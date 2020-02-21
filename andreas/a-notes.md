@@ -140,6 +140,7 @@ ng project structure, ecosystem, command line
 | ng generate _schematic_ | |
 | ng g _schematic_ | |
 | ng build --prod | |
+| ng update @angular/cli @angular/core | aktualisiert ng tool und ng core|
 
 ### M020 LINKS
 
