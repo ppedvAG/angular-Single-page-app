@@ -7,6 +7,30 @@ Possible Solutions:
 - url with `include_config=1` parameter to load config only once
 - using *pipes* to format data (`<app-date diplay-value="tableData[rowIndex][colIndex] | formatTableCell(column.type)">`)
 
+```javascript
+of(1,2,3).
+    subscribe(
+        next => {
+            if(next === 2) {
+                throw new Error('test');
+            }
+            console.log(next); // 1 wird ausgegeben
+        }, 
+        error => {
+            console.log('error on 2', error);
+        },       
+        () => {
+            
+        }       
+    );
+
+
+
+```
+
+
+
+
 ```
 <app-inbox-table [tableConfig]="{columns:{id: "number", name: "string"}}">
 

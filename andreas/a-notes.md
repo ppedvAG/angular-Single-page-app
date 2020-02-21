@@ -58,6 +58,63 @@ ng generate module todos
 - ngClass => string oder leerer string => klassenname / object mit key value boolean
 - classname
 
+
+# events
+
+```
+ (click)="navItemClicked($event.target)" (mouseover)="navItemHover($event.target)" (mouseout)="navItemOut($event.target)"
+
+```
+```
+
+  public navItemClicked(target: EventTarget) {
+    // console.log(target);
+    // debugger;
+    //
+    // target.parentElement.parentElement.querySelectorAll('li').forEach((li) => {
+    //     const activeIndex = li.classList.filter(i => i !== "active")
+    // });
+    //
+    // target.parentElement.classList.add("active");
+  }
+
+  public navItemHover(target: EventTarget) {
+    console.log("hover", target);
+  }
+
+  public navItemOut(target: EventTarget) {
+    console.log("out", target);
+  }
+
+```
+
+
+
+```
+
+<div (eventname)="eventHandler()"></div>
+<div (click)="increase()"></div>
+<input (keydown)="onKeyDown($event)"> // $event.target.value
+
+onKeyDown(event:KeyboardEvent) {
+    event.preventDefault();
+    this.key = event.key; // angular specific
+}
+
+// filter for events
+(keyup.enter)="onEnter()" => Eingabetaste, keycode 13
+
+// generics, number is the data type, but can use any type
+remaining: 5;
+@Output() tick: EventEmitter<number> = new EventEmmiter<number>();
+
+this.tick.emit(this.remaining);
+
+
+
+```
+
+
 ## MODULE 000 | WARM UP
 
 ### M000 SLIDES

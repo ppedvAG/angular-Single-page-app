@@ -7,8 +7,6 @@ import { Component, OnDestroy, OnInit } from "@angular/core";
 })
 export class OverviewComponent implements OnInit, OnDestroy {
 
-  constructor() { }
-
   ngOnInit(): void {
   }
 

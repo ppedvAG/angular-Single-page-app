@@ -1,0 +1,13 @@
+:host p {
+  display:block;
+  background:yellow;
+  width:500px;
+  height:200px;
+  font-size:30px;
+  color:black;
+
+}
+:host p.active {
+  background: black;
+  color:white;
+}
