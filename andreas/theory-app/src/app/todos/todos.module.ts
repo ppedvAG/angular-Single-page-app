@@ -4,8 +4,6 @@ import { TodosoverviewComponent } from './todosoverview/todosoverview.component'
 import { RatingComponent } from './rating/rating.component';
 import { TodotableComponent } from './todotable/todotable.component';
 
-
-
 @NgModule({
   declarations: [TodosoverviewComponent, RatingComponent, TodotableComponent],
   imports: [
@@ -13,6 +11,7 @@ import { TodotableComponent } from './todotable/todotable.component';
   ],
   exports: [
     TodosoverviewComponent
+
   ]
 })
 export class TodosModule { }
