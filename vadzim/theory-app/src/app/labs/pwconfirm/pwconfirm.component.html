@@ -1,0 +1,16 @@
+<form action="#" ngForm #myForm="ngForm">
+    <input ngModel #myInp1="ngModel" type="text" name="pw1" required minlength="3">
+    <input ngModel #myInp2="ngModel" type="text" name="pw2" required minlength="3">
+    <button [disabled]="!myInp1.valid || !myInp2.valid || myInp1.value !== myInp2.value" #btn>OK</button>
+    <div *ngIf="btn.disabled">Die Eingaben stimmen nicht überein!</div>
+  
+    <h4>ngModel Props</h4>
+    <div>myInp1.value: {{myInp1.value}}</div>
+    <div>myInp1.touched: {{myInp1.touched}}</div>
+    <div>myInp1.pristine: {{myInp1.pristine}}</div>
+    <div>myInp1.valid: {{myInp1.valid}}</div>
+  
+    <h4>ngForm Props</h4>
+    <div>myForm.value: {{myForm.value}}</div>
+    <div>myForm.value.pw1: {{myForm.value.pw1}}</div>
+</form>

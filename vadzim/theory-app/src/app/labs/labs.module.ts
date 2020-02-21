@@ -6,6 +6,8 @@ import { DiceComponent } from './dice/dice.component';
 import { DiashowComponent } from './diashow/diashow.component';
 import { MouseOverComponent } from './mouse-over/mouse-over.component';
 import { TimerComponent } from './timer/timer.component';
+import { PwconfirmComponent } from './pwconfirm/pwconfirm.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -15,10 +17,12 @@ import { TimerComponent } from './timer/timer.component';
     DiceComponent, 
     DiashowComponent,
     MouseOverComponent,
-    TimerComponent
+    TimerComponent,
+    PwconfirmComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
     OverviewComponent    
