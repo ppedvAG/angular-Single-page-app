@@ -8,6 +8,7 @@ import { MouseOverComponent } from './mouse-over/mouse-over.component';
 import { TimerComponent } from './timer/timer.component';
 import { PwconfirmComponent } from './pwconfirm/pwconfirm.component';
 import { FormsModule } from '@angular/forms';
+import { ActiveRouteComponent } from './active-route/active-route.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { FormsModule } from '@angular/forms';
     DiashowComponent,
     MouseOverComponent,
     TimerComponent,
-    PwconfirmComponent
+    PwconfirmComponent,
+    ActiveRouteComponent
   ],
   imports: [
     CommonModule,

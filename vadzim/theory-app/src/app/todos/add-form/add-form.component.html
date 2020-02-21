@@ -1,1 +1,7 @@
-<p>add-form works!</p>
+<form #f=ngForm (ngSubmit)="addTodo(f.value)">
+    <input ngModel type="text" name="title" placeholder="todo title">
+    <input ngModel type="number" name="rating" placeholder="todo rating">
+    <input ngModel type="number" name="user" placeholder="todo user">
+    <button>submit</button>
+</form>
+
