@@ -30,3 +30,6 @@
 <app-home-away label="another label"></app-home-away>
 
 <app-click-counter></app-click-counter>
+
+
+<app-timer [seconds]="10" (start)="onStart()" (tick)="onTick($event)" (end)="onEnd($event)"></app-timer>
