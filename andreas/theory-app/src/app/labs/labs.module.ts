@@ -6,13 +6,17 @@ import { DiceComponent } from './dice/dice.component';
 import { DiashowComponent } from './diashow/diashow.component';
 import { HomeAwayComponent } from './home-away/home-away.component';
 import { ClickCounterComponent } from './click-counter/click-counter.component';
+import { TimerComponent } from './timer/timer.component';
+import { PasswordConfirmComponent } from './password-confirm/password-confirm.component';
+import {FormsModule} from "@angular/forms";
 
 
 
 @NgModule({
-  declarations: [TimeComponent, OverviewComponent, DiceComponent, DiashowComponent, HomeAwayComponent, ClickCounterComponent],
+  declarations: [TimeComponent, OverviewComponent, DiceComponent, DiashowComponent, HomeAwayComponent, ClickCounterComponent, TimerComponent, PasswordConfirmComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
     OverviewComponent
