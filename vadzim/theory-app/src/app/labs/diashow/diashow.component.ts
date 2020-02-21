@@ -8,7 +8,8 @@ import { Component, OnInit, OnDestroy, Input } from '@angular/core';
 export class DiashowComponent implements OnInit {
   @Input() images: string[];
   activeImg = 0;
-  private intervId: NodeJS.Timeout;
+  // private intervId: NodeJS.Timeout;
+  private intervId: number;
 
   constructor() { }
 

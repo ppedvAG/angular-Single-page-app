@@ -1,9 +1,11 @@
 <ul class="nav justify-content-center">
+  <!-- routerLinkActive muss nicht unbedingt am gleichen El wie routerLink angewendet werden #todo eher schon!  -->
+  <!-- bei li wurde die Klasse angewendet aber dann nicht entfernt -->
     <li class="nav-item">
-      <a class="nav-link active" routerLink="/labs">LABS</a>
+      <a class="nav-link active" routerLink="/labs" routerLinkActive="active">LABS</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" routerLink="/todos">TODOS</a>
+      <a class="nav-link" routerLink="/todos" routerLinkActive="active">TODOS</a>
     </li>
 </ul>
 

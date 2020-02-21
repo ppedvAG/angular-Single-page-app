@@ -4,5 +4,5 @@
 
 <p [style.font-size.px]="getFontSize()" [class.bingo]="zahl === 6">Gewürfelt! Es ist eine {{zahl}}</p>
 <p *ngIf="zahl % 2 === 0; else oddTemplate">gerade Zahl ist rausgekommen</p>
-<ng-template #oddTemplate>ungerade Zahl ist rausgekommen</app-time>
+<ng-template #oddTemplate>ungerade Zahl ist rausgekommen</ng-template>
 
