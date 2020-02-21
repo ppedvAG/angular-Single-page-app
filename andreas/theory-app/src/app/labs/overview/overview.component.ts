@@ -15,4 +15,16 @@ export class OverviewComponent implements OnInit, OnDestroy {
     console.log('Lab OverviewComponent destroy');
   }
 
+  public onStart() {
+    console.log("onStart");
+  }
+
+  public onTick(number) {
+    console.log("onTick", number);
+  }
+
+  public onEnd(message:string) {
+    console.log("onEnd", message);
+  }
+
 }
