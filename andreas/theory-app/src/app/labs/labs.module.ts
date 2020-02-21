@@ -9,11 +9,12 @@ import { ClickCounterComponent } from './click-counter/click-counter.component';
 import { TimerComponent } from './timer/timer.component';
 import { PasswordConfirmComponent } from './password-confirm/password-confirm.component';
 import {FormsModule} from "@angular/forms";
+import { ActiveRouteComponent } from './active-route/active-route.component';
 
 
 
 @NgModule({
-  declarations: [TimeComponent, OverviewComponent, DiceComponent, DiashowComponent, HomeAwayComponent, ClickCounterComponent, TimerComponent, PasswordConfirmComponent],
+  declarations: [TimeComponent, OverviewComponent, DiceComponent, DiashowComponent, HomeAwayComponent, ClickCounterComponent, TimerComponent, PasswordConfirmComponent, ActiveRouteComponent],
   imports: [
     CommonModule,
     FormsModule

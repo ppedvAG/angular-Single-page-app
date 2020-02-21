@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LabsModule } from './labs/labs.module';
 import { TodosModule } from './todos/todos.module';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 
 
@@ -16,7 +18,8 @@ import { TodosModule } from './todos/todos.module';
     BrowserModule,
     AppRoutingModule,
     LabsModule,
-    TodosModule
+    TodosModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent] // af: bootstrap options
